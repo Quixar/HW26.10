@@ -3,20 +3,20 @@ using namespace std;
 
 int main()
 {
-	//double num1;
-	//double num2;
-	//double sum;
-	//double* pnum1 = &num1;
-	//double* pnum2 = &num2;
-	//double* psum = &sum;
-	//double** ppnum1 = &pnum1;
-	//double** ppnum2 = &pnum2;
-	//double** ppsum = &psum;
-	//cout << "Enter first number: ";
-	//cin >>  **ppnum1;
-	//cout << "Enter second number: ";
-	//cin >> **ppnum2;
-	//cout << "Sum of numbers = " << **ppnum1 + **ppnum2 << "\n";
+	double num1;
+	double num2;
+	double sum;
+	double* pnum1 = &num1;
+	double* pnum2 = &num2;
+	double* psum = &sum;
+	double** ppnum1 = &pnum1;
+	double** ppnum2 = &pnum2;
+	double** ppsum = &psum;
+	cout << "Enter first number: ";
+	cin >>  **ppnum1;
+	cout << "Enter second number: ";
+	cin >> **ppnum2;
+	cout << "Sum of numbers = " << **ppnum1 + **ppnum2 << "\n";
 
 
 	int height;
